@@ -1,7 +1,7 @@
 import re
 
 if __name__ == "__main__":
-    filename = 'C:\\Users\\Camer\\Documents\\Python_Tests\\pi_million_digits.txt'
+    filename = 'C:\\Users\\Camer\\Documents\\Python_Tests\\pi_birthday\\pi_million_digits.txt'
 
     with open(filename) as file_object:
         lines = file_object.readlines()
