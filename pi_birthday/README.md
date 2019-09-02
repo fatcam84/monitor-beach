@@ -1,5 +1,7 @@
-### This program finds out if the user's birth date occurs in the first million digits of pi.
-### when run in terminal, the user is asked to put in their birth date in mmddyy format.
+### See if your birthday exists in the first million digits of pi!
+
+This program finds out if the user's birth date occurs in the first million digits of pi.
+when run in terminal, the user is asked to put in their birth date in mmddyy format.
 
 If the 6 digit number combination occurs in the first million digits of pi, then
 the program will return a 12 digit number, the 3 numbers before birth date, 6 numbers 
