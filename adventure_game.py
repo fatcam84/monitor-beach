@@ -129,5 +129,5 @@ def play_game():
     intro()
     valid_input(items)
 
-
-play_game()
+if __name__ == "__main__":
+  play_game()
