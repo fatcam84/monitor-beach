@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div class="container">
+    <fieldset>
+      <h1>To-Do List</h1>
+      <hr>
+      <div>
+        <button onclick="handlers.toggleAll()" class="btn btn-outline-info btn-lg btn-block">Toggle All</button>
+      </div>
+      <hr>
+      <div>
+        <button onclick="handlers.addTodo()" class="btn btn-outline-info">Add</button>
+        <input id="addTodoTextInput" type="text" placeholder="new item">
+      </div>
+      <hr>
+      <div>
+        <button onclick="handlers.changeTodo()" class="btn btn-outline-info">Change Todo</button>
+        <input id="changeTodoPositionInput" type="number" placeholder="number">
+        <input id="changeTodoTextInput" type="text" placeholder="new text">
+      </div>
+      <hr>
+      <div>
+        <button onclick="handlers.toggleCompleted()" class="btn btn-outline-info">Toggle Completed</button>
+        <input id="toggleCompletedPositionInput" type="number" placeholder="number">
+      </div>
+      <hr>
+      <ul>
+      </ul>
+    </fieldset>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
